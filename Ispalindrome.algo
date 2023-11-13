@@ -1,0 +1,22 @@
+Algorithm IsPalindrome
+var 
+mot: string;
+taillemot: INTEGER:[mot.length];
+i: INTEGER:0;
+resulat:boolean: false;
+begin
+i = 0;
+j=mot.length - 1;
+
+while (i < j)
+if((taillemot=1) OR (mot[0]=''))
+resulat= false;
+else if (mot[i] <> mot[j])
+result= false;
+else (mot[i] = mot[j])
+ i=i+1;
+j=j-1;
+enif
+end_while
+resulat=true;
+end.
